@@ -1,0 +1,241 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.main{
+    width:999px;
+	margin:auto;
+	
+}
+
+/**********beader-nav***********/
+
+.b {
+    background:url(../images/a_25.png) repeat-x;
+    width:100%;
+	display:block;
+	height:3px;
+}
+#header{
+    background:url(../images/a_00.png);
+	height:118px;
+}
+.logo_nav h1{
+    margin:18px 0 0 50px;
+	float:left;
+}
+/*调整*/
+.tel{
+    width:390px;
+    float:right;
+	margin-right:25px;
+	height:35px;
+}
+/*调整*/
+.line{
+    width:155px;
+    color:#ed4846;
+	float:left;
+	margin:14px 0 0 0;	
+}
+.btn{
+    background:url(../images/a_08.png);
+	width:95px;
+	height:27px;
+	border:none;
+	float:left;
+	color:#ed4846;
+	margin:8px 5px 0 10px;
+    cursor:pointer;
+	text-align:center;
+	line-height:27px;
+}
+.reset{
+    margin:8px 30px 0 0; 
+	background:url(../images/a_08.png);
+	width:95px;
+	height:27px;
+	border:none;
+	float:left;
+	color:#ed4845;
+	cursor:pointer;
+	text-align:center;
+	line-height:27px;
+}
+.nav{
+    float:right;
+	width:550px;
+	height:49px;
+	margin:34px 60px 0 0;
+	font-size:1.25em;
+}
+.nav  li{
+    float:left;	
+	padding-right:2px;
+}
+.nav  li a{
+  color:#808182;
+  line-height:49px;
+  height:49px;
+  width:108px;
+  text-align:center; 
+  display:inline-block;
+}
+
+.nav li a.hover,.nav li a:hover{
+   color:#fff;
+   background:#ed4845;
+   
+}
+
+/**********banner***********/
+
+#banner{
+   background:url(../images/a_09.png);
+   width:100%;
+   height:381px;
+}
+
+/**********center***********/
+
+#center{
+}
+.pic_cen,.pic_cen_01,.pic_cen_02,.pic_cen_03{
+    float:left;
+	height:184px;
+}
+.pic{
+   height:114px;
+   width:114px;
+   background:url(../images/a_22.png);
+   margin:10px 0 0 68px;
+}
+.pic:hover{
+   height:114px;
+   width:114px;
+   background:url(../images/a_24.png);
+   margin:10px 0 0 68px;
+}
+.pic_01{
+   height:114px;
+   width:114px;
+   background:url(../images/a_21.png);
+   margin:10px 0 0 68px;
+}
+.pic_01:hover{
+   height:114px;
+   width:114px;
+   background:url(../images/a_20.png);
+   margin:10px 0 0 68px;
+}
+.pic_02{
+   height:114px;
+   width:114px;
+   background:url(../images/a_19.png);
+   margin:10px 0 0 68px;
+}
+.pic_02:hover{
+   height:114px;
+   width:114px;
+   background:url(../images/a_18.png);
+   margin:10px 0 0 68px;
+}
+.pic_03{
+   height:114px;
+   width:114px;
+   background:url(../images/a_17.png);
+   margin:10px 0 0 68px;
+}
+.pic_03:hover{
+   height:114px;
+   width:114px;
+   background:url(../images/a_16.png);
+   margin:10px 0 0 68px;
+}
+
+.cen{
+   width:249px;
+   height:55px;
+   color:#808182;
+}
+.cen span{
+   height:30px;
+   line-height:30px;
+   font-weight:blod;
+   font-size:16px;
+   text-align:center;
+   display:block;   
+}
+.cen{
+   height:30px;
+   line-height:30px;
+   text-align:center;
+   display:block; 
+}
+
+/**********footer***********/
+/*版权调整*/
+.pic_foot img{padding:20px 0;}
+.pic_foot p{
+   width:999px;
+   height:100px;
+   text-align:center;
+   color:#808182;
+   
+}
+
+
+/*公共样式*/
+.fl{float:left;}
+.fr{float:right;}
+input { border:none;}
+/*弹出层遮罩*/
+#shade { position:absolute; top:0; left:0; background:#575757; z-index:99; opacity:0.7;-moz-opacity:0.7;
+filter:alpha(opacity=70); display:none;}
+/*弹出内容*/
+.referral0 { width:811px; height:711px; padding-top:26px; background:#fff; position:absolute;z-index:100; display:none;
+left:50%; top:160px; margin-left:-405px;}
+.g_portrait { width:348px; margin:auto; height:120px;}
+.g_portrait h2 { float:left; height:20px; font-size:16px; color:#000; font-weight:bold; width:100%; text-align:center;}
+.g_portrait ul { margin:24px 0 0 14px; float:left; color:#9d9f9e;}
+.g_portrait ul li { float:left; margin-right:6px;}
+.g_portrait ul li i { margin:0 6px;}
+.g_portrait span { float:left; margin-top:15px;}
+.referral_text { float:left; margin:27px 0 0 44px; width:727px;}
+.referral_text h2 { float:left;font-size:16px; color:#000; font-weight:bold; width:100%;}
+.referral_text h2 b { margin-left:32px;}
+.referral_text h4 { float:left; color:#303030; font-size:16px; width:100%; margin:32px 0 8px 0;}
+.referral_text h4 strong { margin-left:65px;}
+.referral_text p { float:left; line-height:25px; text-indent:2em; margin-top:16px; font-size:16px; color:#303030;}
+.off { position:absolute; top:4px; right:4px;}
+/*提问窗口*/
+.g_quiz0 { width:616px; height:538px; background:#fff; position:absolute; top:0px; left:0px;z-index:999; display:none;}
+.g_quiz0 h2 { float:left; width:100%; height:43px; background:url(../image/quiz_bj.gif) no-repeat;}
+.g_quiz_t { width:550px; margin:22px 0 0 24px; height:218px;}
+.g_zuo { width:147px;}
+.g_zuo span { float:left;}
+.g_zuo ul { float:left; width:90px; margin:12px 0 0 32px;}
+.g_zuo ul li { float:left; height:15px; color:#e95704; line-height:15px;}
+.g_you { width:382px;}
+.g_you h3 { float:left; color:#000; font-size:14px; font-weight:bold; width:100%; height:18px; line-height:18px;}
+.g_you h3 b { margin-left:17px;}
+.g_you p { float:left; color:#474747; line-height:15px; margin-top:4px; text-align:justify;}
+.g_you span { float:right; margin-top:13px;}
+.g_you span a { text-decoration:underline;}
+.g_quiz_b { margin:17px 0 0 10px;}
+.g_form { float:left; height:126px; border-bottom:1px #ebebeb solid; width:582px; padding-left:14px;}
+.g_area { float:left; width:362px; height:57px; padding:10px 1px 1px 22px; resize:none; border:none;
+background:url(../image/g_textareabj.gif) no-repeat;}
+.g_submit { float:left; width:180px; height:68px; text-align:center; line-height:68px; font-size:18px; color:#fff;
+background:url(../image/g_btn1.gif) no-repeat; cursor:pointer; margin-left:3px;}
+.file { position:absolute; cursor:pointer;}
+.g_btn2 { float:left; width:66px; height:20px; background:url(../image/g_btn2.gif) no-repeat; color:#000;
+text-align:center; line-height:20px;}
+.g_lj { width:70px; height:20px;}
+.g_file { filter:alpha(opacity=0);-moz-opacity:0;opacity:0;}
+.g_form b { float:left; margin-top:13px; position:relative; width:100px;}
+.g_quiz_b p { float:left; margin:42px 0 0 14px; color:#c6c6c6;}
+.off2 { position:absolute; width:42px; height:41px; top:2px; right:2px;}
+.off em,.off2 em { background:url(../image/off.gif) no-repeat; width:42px; height:41px; display:inline-block;
+cursor:pointer;}
+.off em.hover,.off2 em.hover { background:url(../image/off_hover.gif) no-repeat;}

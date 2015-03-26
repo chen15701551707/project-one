@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+.main{
+    width:999px;
+	margin:auto;
+	
+}
+
+i{ font-style:normal;}
+/*banner*/
+.ban { width:998px; height:151px;}
+/*内容*/
+.x_content {}
+.x_content .xl_content { width:230px; height:263px; float:left;} 
+.x_content .xl_content ol {}
+.x_content .xl_content ol li { background:url(../image/x-3_16.png) no-repeat; width:230px; height:45px; line-height:45px; text-align:center; margin-top:7px;}
+.x_content .xl_content ol li a { font-size:14px; color:#606060; font-weight:600;}
+.x_content .xl_content ol li a.hover { color:#fff;}
+.x_content .xl_content ol li.hover { background:url(../image/x-3_03.png) no-repeat; width:230px; height:45px;}
+.xr_content { width:740px; margin-left:12px; margin-top:13px; float:left; display:none;}
+.xr_content h3 { color:#787878; font-size:14px; margin-left:11px;}
+.xr_content em { border:1px #e1e1e1 solid; margin-top:8px; margin-bottom:13px; display:block;}
+.xr_content1 ol { margin-left:16px; float:left; margin-bottom:32px;}
+.xr_content1 ol li { float:left;}
+.xr_content1 ol li .xr_content2 { background:url(../image/x-4t5.png) no-repeat; width:156px; height:62px; margin-top:3px;}
+.xr_content1 ol li .xr_content2 h2 { text-align:center; color:#000; font-size:14px; font-weight:600; padding-top:3px;}
+.xr_content1 ol li .xr_content2 span { font-size:9px; color:#9d9b9c; text-align:center; width:100%; display:block; padding-top:5px;}
+.xr_content1 ol li .xr_content2 p { text-align:center; background:url(../image/x-4t7_03.png) no-repeat; width:76px; height:18px; float:left; line-height:18px; margin-left:41px; margin-top:3px;}
+.xr_content1 ol li .xr_content2 p a { color:#fff; font-size:12px;}
